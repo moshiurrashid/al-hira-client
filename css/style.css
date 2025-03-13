@@ -1,0 +1,493 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary: #bd9c71;
+  --secondery: #171923;
+  --white: #ffffff;
+  --red: #ff0000;
+  --black: #000000;
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+/* HeaderTop Start Here... */
+header #headerTop {
+  padding: 14px;
+  background: var(--primary);
+}
+
+header .headerTopWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header #headerTop .contactInfo {
+  display: flex;
+  gap: 15px;
+}
+
+header #headerTop .contactInfo span {
+  font-size: 20px;
+  color: var(--white);
+}
+
+header #headerTop .contactInfo p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 100%;
+  color: var(--white);
+  margin: 0;
+}
+
+header #headerTop .contactInfo .contactNumber {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+header #headerTop .contactInfo .mail {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.socialIcon {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  font-size: 20px;
+  color: var(--white);
+}
+
+/* HeaderTop Start Here... */
+
+/* Navbar Start Here... */
+header nav {
+  padding: 14px 0;
+  background: var(--secondery);
+  border-bottom: 3px solid #a86e2e;
+}
+
+header nav ul{
+    gap: 43px;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    color: var(--white);
+}
+/* Navbar End Here... */
+
+/* Banner Start Here... */
+#banner{
+    padding-top: 220px;
+    padding-bottom: 746px;
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#banner .bannerTitle{
+    text-align: center;
+}
+
+#banner .bannerTitle h1{
+    max-width: 475px;
+    margin: 0 auto;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 100%;
+    color: var(--white);
+    margin-bottom: 15px;
+}
+
+#banner .bannerTitle h1 span{
+    display: inline-block;
+    color: var(--primary);
+}
+
+#banner .bannerTitle h3{
+    width: auto;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 100%;
+    color: var(--primary);
+    margin-bottom: 15px;
+}
+
+#banner .bannerTitle p{
+    max-width: 1009px;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 100%;
+    color: var(--white);
+    position: relative;
+}
+
+
+#banner .bannerTitle p span{
+    color: var(--primary);
+}
+
+#banner .bannerBtn{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    margin-top: 30px;
+}
+
+#banner .bannerBtn button{
+    padding: 9px 24px;
+    background: var(--primary);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 100%;
+    color: var(--white);
+    transition: .4s;
+}
+
+#banner .bannerBtn button:hover{
+    background: transparent;
+    border: 1px solid var(--primary);
+}
+/* Banner End Here... */
+/* Online Course Start Here... */
+#onlineCourse {
+    padding: 50px 50px 453px 50px;
+    background-color: var(--primary);
+    position: relative;
+}
+
+#onlineCourse .onlineCourseTitle h2{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 100%;
+    text-align: center;
+    color: var(--secondery);
+}
+
+#onlineCourse .carousel-inner{
+    position: absolute;
+}
+
+#onlineCourse .button .prevBtn {
+    position: absolute;
+    top: 350px;
+    left: -30px;
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    background: var(--white);
+    border-radius: 50%;
+}
+#onlineCourse .button .nextBtn {
+    position: absolute;
+    top: 350px;
+    right: -30px;
+    width: 64px;
+    height: 64px;
+    background: var(--white);
+    border-radius: 50%;
+}
+
+
+
+#onlineCourse .button .prevBtn .prevIcon{
+    text-align: center;
+    font-size: 30px;
+    color: var(--primary);
+    margin-left: 50px;
+    
+}
+#onlineCourse .button .nextBtn .nextIcon{
+    text-align: center;
+    font-size: 30px;
+    color: var(--primary);
+    margin-right: 50px;
+}
+
+
+#onlineCourse .courseItem{
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#onlineCourse .card{
+    padding: 20px;
+    background: #F0ECE1;
+    text-align: center;
+}
+
+#onlineCourse .courseImage img{
+    width: 100%;
+}
+
+#onlineCourse .card h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-top: 43px;
+    margin-bottom: 2px;
+    text-wrap: nowrap;
+}
+#onlineCourse .card h4{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 100%;
+    color: var(--red);
+    margin-bottom: 43px;
+}
+
+#onlineCourse .courseBtn{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+#onlineCourse .courseBtn button{
+    padding: 13px 60px;
+    background: var(--secondery);
+    color: var(--white);
+    border: none;
+}
+
+#onlineCourse .courseBtn .btnTwo{
+    background: var(--primary);
+}
+/* Online Course End Here... */
+/* Islamic Book Start Here... */
+#islamicBook{
+    padding: 290px 50px 50px 50px;
+}
+
+#islamicBook .islamicBookTitle h2{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 100%;
+    text-align: center;
+    color: var(--secondery);
+    margin-bottom: 50px;
+}
+
+#islamicBook .card{
+    padding: 22px;
+    background: #F0ECE1;
+    text-align: center;
+}
+
+#islamicBook .card img{
+    width: 100%;
+}
+
+#islamicBook .card h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 100%;
+    color: var(--secondery);
+    margin-top: 30px;
+}
+
+#islamicBook .card h4{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 100%;
+    color: var(--red);
+    margin-top: 2px;
+}
+
+#islamicBook .downloadBtn button{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;
+    color: var(--white);
+    padding: 12px 0;
+    background: var(--secondery);
+    border: none;
+    margin-top: 30px;
+}
+
+#islamicBook .seeMoreBtn{
+    margin-top: 23px;
+}
+
+#islamicBook .seeMoreBtn button{
+    width: 100%;
+    padding: 12px 0;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;
+    color: var(--secondery);
+    border: 2px solid var(--black);
+    background-color: transparent;
+}
+/* Islamic Book End Here... */
+
+/* Gallery Start Here... */
+#gallery{
+    padding: 50px 0;
+}
+
+#gallery .galleryTitle h2{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 100%;
+    text-align: center;
+    color: var(--secondery);
+    margin-bottom: 50px;
+}
+
+#gallery .imageCard img{
+    width: 100%;
+}
+
+#gallery .insideRow{
+    margin-top: 10px;
+}
+
+#gallery .seeMoreBtn button{
+    width: 100%;
+    padding: 12px 0;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;
+    color: var(--secondery);
+    border: 2px solid var(--black);
+    background-color: transparent;
+    margin-top: 30px;
+}
+/* Gallery End Here... */
+/* Footer Start Here... */
+footer{
+    padding: 70px 0 0 0;
+    background: var(--secondery);
+}
+
+footer .socialLink .title h3{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 100%;
+    color: var(--primary);
+}
+
+footer .footerItem .signUp .title h3{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 100%;
+    color: var(--primary);
+    margin-bottom: 33px;
+}
+
+footer .footerItem .signUp .inputBox{
+    width: 417px;
+    padding: 12px 0 12px 22px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+    color: var(--secondery);
+
+}
+
+footer .footerItem .signUp .inputBox::placeholder{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+    color: #B5B4B4;
+}
+
+footer .footerItem .signUp button{
+    padding: 15px 50px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;
+    color: var(--white);
+    background: var(--primary);
+    border: none;
+    margin-left: 27px;
+}
+
+footer .footerItem .servicesAndLink{
+    display: flex;
+    gap: 116px;
+    margin-top: 46px;
+    margin-bottom: 144px;
+}
+
+footer .footerItem .servicesAndLink .services,.link h3{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 100%;
+    color: var(--primary);
+}
+
+footer .footerItem  .servicesAndLink ul{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    margin-top: 36px;
+}
+footer .footerItem  .servicesAndLink ul li{
+    list-style: none;
+    
+}
+
+footer .footerItem  .servicesAndLink ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    color: var(--white);
+}
+
+
+
+#footerBottom{
+    padding: 14px 0;
+    background: var(--primary);
+}
+
+#footerBottom .bottomTitle h2{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;
+    text-align: center;
+    color: var(--secondery);
+}
+
+/* Footer End Here... */
+
+
+
+
+
+

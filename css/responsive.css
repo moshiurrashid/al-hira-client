@@ -1,0 +1,226 @@
+:root {
+    --primary: #bd9c71;
+    --secondery: #171923;
+    --white: #ffffff;
+    --red: #ff0000;
+    --black: #000000;
+  }
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    header #headerTop {
+        display: none;
+    }
+
+    .navbar{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .navbar-brand img{
+        width: 80%;
+    }
+
+    .navbar-toggler {
+        background: var(--primary);
+    }
+
+    .navbar ul{
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+
+    #banner .bannerTitle h1 {
+        font-size: 36px;
+    }
+
+    #banner {
+        padding-top: 120px;
+        padding-bottom: 260px;
+    }
+
+    #banner .bannerTitle h3 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    #banner .bannerTitle p {
+        font-size: 14px;
+    }
+
+    #banner .bannerBtn button {
+        padding: 8px 18px;
+    }
+
+
+    #onlineCourse .onlineCourseTitle h2 {
+        font-size: 30px;
+    }
+
+    #onlineCourse {
+        padding: 20px 10px;
+    }
+
+    #onlineCourse .carousel-inner{
+        position: relative;
+    }
+
+    #onlineCourse .card {
+        padding: 12px;
+        margin-bottom: 12px;
+    }
+
+    #onlineCourse .courseItem {
+        margin-top: 16px;
+    }
+
+    #onlineCourse .card h3 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    #onlineCourse .card h4 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    #onlineCourse .courseBtn button {
+        padding: 6px 30px;
+        font-size: 14px;
+    }
+
+    #onlineCourse .carousel .button{
+        display: none;
+    }
+
+
+    #islamicBook {
+        padding: 20px 10px;
+    }
+
+    #islamicBook .islamicBookTitle h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    #islamicBook .card h3 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    #islamicBook .card h4 {
+        font-size: 18px;
+    }
+
+    #islamicBook .downloadBtn button {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    #islamicBook .card {
+        padding: 12px;
+        margin-bottom: 20px;
+    }
+
+    #islamicBook .card img{
+        width: 80%;
+    }
+
+    #islamicBook .seeMoreBtn {
+        margin: 0;
+    }
+
+    #islamicBook .seeMoreBtn button {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    #gallery {
+        padding: 20px 10px;
+    }
+
+    #gallery .galleryTitle h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    #gallery .imageCard img {
+        margin-bottom: 12px;
+    }
+
+    #gallery .seeMoreBtn button {
+        padding: 10px 0;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    footer {
+        padding: 20px 10px;
+    }
+
+    footer .socialLink .title h3 {
+        font-size: 22px;
+    }
+
+    footer .socialIcon {
+        font-size: 18px;
+        gap: 20px;
+    }
+
+    footer .footerItem .signUp .title h3 {
+        font-size: 22px;
+        margin-bottom: 12px;
+        margin-top: 20px;
+    }
+
+    footer .footerItem .signUp .inputBox {
+        max-width: 417px;
+        padding: 8px 0 8px 12px;
+        font-size: 14px;
+    }
+
+    footer .footerItem .signUpBtn{
+        display: flex;
+    }
+
+    footer .footerItem .signUp .inputBox::placeholder{
+        font-size: 14px;
+    }
+
+    footer .footerItem .signUp button {
+        padding: 10px 20px;
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    footer .footerItem .servicesAndLink {
+        display: flex;
+        justify-content: space-between;
+        gap: 0;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    footer .footerItem .servicesAndLink h3{
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    footer .footerItem  .servicesAndLink ul {
+        gap: 12px;
+        margin-top: 12px;
+    }
+
+    footer .footerItem  .servicesAndLink ul li a {
+        font-size: 14px;
+    }
+
+    #footerBottom {
+        padding: 8px 0;
+    }
+
+    #footerBottom .bottomTitle h2 {
+        font-size: 12px;
+    }
+
+
+}
